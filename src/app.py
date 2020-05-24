@@ -1,2 +1,5 @@
+from .api.v1 import application
+
+
 def run():
-    pass
+    application.run(debug=True)
