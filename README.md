@@ -23,18 +23,16 @@ Access the web interface and use the available search tools
 - For technical assistance
 Fill the contact form <br> 
 
-## Authors             Github                Role
-Daisy Macharia         daisymacharia         Mentor
-John Jenyo             foreign1              TTL
-Ifara Samuel           farajayh              Member
-Samuel Tijani          thesamtj              Member
+## Authors             Github                Role<br>
+Daisy Macharia         daisymacharia         Mentor<br>
+John Jenyo             foreign1              TTL<br>
+Ifara Samuel           farajayh              Member<br>
+Samuel Tijani          thesamtj              Member<br>
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
 First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-1.  area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
-2.  area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
-3.  area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
+1.  area one this app is about technology adoption and we need feedback on how our the featured software fits with market needs
 
 ## Acknowledgements
 
