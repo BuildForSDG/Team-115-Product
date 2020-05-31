@@ -16,12 +16,12 @@ This project aims to enlighten the above named entities on the available technol
 
 ## Usage
 ### App Url:
-**To learn about technology, how it is changing the secular and the business world, it's advantages and more** 
+- To learn about technology, how it is changing the secular and the business world, it's advantages and more <br>
 Visit the website and go to the blog section.
-**To find software solutions tailored for your business area**
+- To find software solutions tailored for your business area
 Access the web interface and use the available search tools
-**For technical assistance**
-Fill the contact form 
+- For technical assistance
+Fill the contact form <br> 
 
 ## Authors             Github                Role
 Daisy Macharia         daisymacharia         Mentor
