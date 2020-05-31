@@ -1,4 +1,4 @@
-A one-liner phrase describing this project or app
+TAAWA - Technology Adoption Advisory Web Application aims to connect African governments, organizations and entrepreneurs with the most approriate software programs germane to attaining optimal effieciency of operations in their various field in hopes of achieving the **Industry, Infrastructure and Innovation** SDG goal.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d55396ac6b834e199565db5f219d7bba)](https://app.codacy.com/gh/BuildForSDG/Team-115-Product?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-115-Product&utm_campaign=Badge_Grade_Settings)
 
@@ -6,99 +6,28 @@ A one-liner phrase describing this project or app
 ## About
 
 What is this project about. Ok to enrich here or the section above it with an image. 
-
-Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
-
-This is a simple python starter repo template for setting up your project. The setup contains:
-
-- install: poetry via pip. poetry is a dependecy manager.
-
-- poetry: configuration in pyproject.toml
-
-- flake8: for linting and formatting
+This project is about getting African governments, organizations and employeers to embrace and adopt technology which will help in increasing their throughput, lead to an unimaginable economic growth, and accelerated development of the continent. 
 
 ## Why
-
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are important
+Technology Adoption Advisory Web Application [TAAWA], solves the problems faced by organizations, employers and government entities in process automation and transaction restrictions due to geographical limitations. 
+It addresses the 9th of the SDG goals **Industry, Infrastructure and Innovation** and is key to achieving **Smart City** status by African cities.
+It is important for African governments, employers and organizations to adopt technology in their day to day activities if they are to stand on equal footings with and/or exceed their international counterparts. 
+This project aims to enlighten the above named entities on the available technologies that could lead to a potential growth and improved efficiency of operations and ultimately profit in their various organizations. It also provides advisory services in the technology adoption process with up-to-date contact information of the various makers and an option for technical assistance.
 
 ## Usage
-How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
+### App Url:
+**To learn about technology, how it is changing the secular and the business world, it's advantages and more** 
+Visit the website and go to the blog section.
+**To find software solutions tailored for your business area**
+Access the web interface and use the available search tools
+**For technical assistance**
+Fill the contact form 
 
-
-## Setup
-You should have **Python 3.5+** and **git** installed. 
-
-1. Clone the repo you've created from the template herein and change into the directory
-
-    ``
-    git clone <Your Repository>
-    ``
-
-2. Change into repo directory
-
-    ``
-    cd python-starter
-    ``
-
-3. Install poetry, a dependecy manager for python.
-
-    On windows, you will need powershell to install it:
-
-    ``
-    (Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python
-    ``
-
-    After that you will need to restart the shell to make it operational.
-
-    &nbsp;
-
-    On linux and other posix systems (mac included):
-
-    ``
-    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-    ``
-
-    &nbsp;
-
-    To check that it is correctly installed, you can check the version:
-    ``
-    poetry --version
-    ``
-
-    May be the latest stable version is not installed with the installation script, to update poetry, you can run:
-
-    ``
-    poetry self update
-    ``
-
-4. With poetry installed, you should install project dependecies by running:
-
-    ``
-    poetry install
-    ``
-
-    This will install pytest for running tests and flake8, linter for your project.
-
-#### To Note
-`src/app.py` is the entry to the project and source code should go into the `src` folder.
-
-All tests should be written in the `tests` folder. tests/test_src.py is a sample test file that shows how tests should like. Feel free to delete it.
-
-#### Hints
-
-- Lint: `poetry run flake8`
-- Run tests using the command: `poetry run pytest`
-- Install dependencies: 
-  `poetry add <dependency>`
-- Install dev dependencies:
-  `poetry add --dev <dev-dependency>`
-- Run your project:
-  `poetry run app`
-
-
-## Authors
-
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
+## Authors             Github                Role
+Daisy Macharia         daisymacharia         Mentor
+John Jenyo             foreign1              TTL
+Ifara Samuel           farajayh              Member
+Samuel Tijani          thesamtj              Member
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
@@ -109,11 +38,7 @@ First, you can send a mail to buildforsdg@andela.com to indicate your interest, 
 
 ## Acknowledgements
 
-Did you use someone else’s code?
-Do you want to thank someone explicitly?
-Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
-
-It's powerful to always give credit.
 
 ## LICENSE
 MIT
+
