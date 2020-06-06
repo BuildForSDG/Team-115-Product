@@ -17,6 +17,7 @@ def re_route(text):
 
 @auth.verify_password
 def verify_password(email, password):
+    email = email.lower()
     user = Users.query.filter_by(email=email).first()
     if not user or not user.verify_password(password):
         return False
@@ -24,12 +25,8 @@ def verify_password(email, password):
     return True
 
 
-@application.route('/api/v1/users/register', methods=['POST', 'GET'])
+@application.route('/api/v1/users/register', methods=['POST'])
 def register():
-    if flask.request.method == 'GET':
-        return jsonify({
-            'Message': 'This endpoint does not accept GET request'})
-
     if not request.json:
         return jsonify({'Message': 'Input the user details in json format'})
 
@@ -43,6 +40,7 @@ def register():
         return jsonify({'Message': 'One or more missing arguments'})
     if Users.query.filter_by(name=name).first() is not None:
         return jsonify({'Message': 'User already exists'})
+    email = email.lower()
     user = Users(name=name, email=email)
     user.hash_password(password)
     db.session.add(user)
@@ -50,12 +48,8 @@ def register():
     return jsonify({'name': user.name})
 
 
-@application.route('/api/v1/users/login', methods=['POST', 'GET'])
+@application.route('/api/v1/users/login', methods=['POST'])
 @auth.login_required
 def login():
-    if flask.request.method == 'GET':
-        return jsonify(
-            {'Message': 'This endpoint does not accept GET request'})
-
     token = g.user.generate_auth_token()
     return jsonify({'token': token.decode('ascii')})

@@ -3,14 +3,17 @@ import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from dotenv import load_dotenv
 
 application = Flask(__name__)
 
 basedir = os.path.abspath(os.path.dirname(__file__))  # set db base directory
+project_dir = os.path.expanduser('~/team-115-product')
+load_dotenv(os.path.join(project_dir, '.env'))
 
 
 class Config(object):
-    SECRET_KEY = 'the-secret-key-goes-here'  # secret keys for forms & sessions
+    SECRET_KEY = os.getenv('SECRET_KEY')  # secret keys for forms & sessions
     # set the database uri
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
     # enable automatic commit of database changes at the end of each request
