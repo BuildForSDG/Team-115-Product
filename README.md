@@ -26,7 +26,7 @@ Fill the contact form <br>
 ## Authors             Github                Role<br>
 Daisy Macharia         daisymacharia         Mentor<br>
 John Jenyo             foreign1              TTL<br>
-Ifara Samuel           farajayh              Member<br>
+Ifara Joshua           farajayh              Member<br>
 Samuel Tijani          thesamtj              Member<br>
 
 ## Contributing
