@@ -32,7 +32,7 @@ Samuel Tijani     -     thesamtj       -       Member<br>
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
 First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-1.  area one this app is about technology adoption and we need feedback on how our the featured software fits with market needs
+1.  area one this app is about technology adoption and we need feedback on how our software fits with market needs
 
 ## Acknowledgements
 
