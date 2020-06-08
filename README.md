@@ -39,4 +39,3 @@ First, you can send a mail to buildforsdg@andela.com to indicate your interest, 
 
 ## LICENSE
 MIT
-
