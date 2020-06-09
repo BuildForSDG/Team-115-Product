@@ -24,16 +24,6 @@ def search():
     return jsonify(results=solutions_list)
 
 
-@application.route('/api/v1/solutions/searche', methods=['POST'])
-def searche():
-    name = request.json.get('name')
-    sector = request.json.get('sector')
-    sub_industry = request.json.get('sub_industry')
-    print(sector)
-    print(sub_industry)
-    return jsonify({"Message": "Hello"})
-
-
 @application.route('/api/v1/solutions/populate', methods=['POST'])
 def populate():
     name = request.json.get('name')
