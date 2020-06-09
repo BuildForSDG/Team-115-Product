@@ -54,4 +54,4 @@ class Solutions(db.Model):
     contact_details = db.Column(db.String(120), index=True)
 
     def __repr__(self):
-        return '{}'.format(self.name)
+        return '{}'.format(self.name, self.details, self.best_for, self.contact_details)
