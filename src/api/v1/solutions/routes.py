@@ -1,5 +1,4 @@
-import flask
-from flask import request, jsonify, g, json, Response
+from flask import request, jsonify, json, Response
 
 from .. import application
 from .. import db
