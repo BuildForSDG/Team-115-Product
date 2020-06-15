@@ -15,7 +15,7 @@ load_dotenv(os.path.join(project_dir, '.env'))
 class Config(object):
     SECRET_KEY = os.getenv('SECRET_KEY')  # secret keys for forms & sessions
     # set the database uri
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+    SQLALCHEMY_DATABASE_URI = process.env.DATABASE_URL #os.environ['DATABASE_URL']
     # enable automatic commit of database changes at the end of each request
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     # disable signaling the app anytime a database change is made
