@@ -15,7 +15,7 @@ It is important for African governments, employers and organizations to adopt te
 This project aims to enlighten the above named entities on the available technologies that could lead to a potential growth and improved efficiency of operations and ultimately profit in their various organizations. It also provides advisory services in the technology adoption process with up-to-date contact information of the various makers and an option for technical assistance.
 
 ## Usage
-### App Url:
+### App Url: https://tawaa-backend.herokuapp.com/api/v1
 - To learn about technology, how it is changing the secular and the business world, it's advantages and more <br>
 Visit the website and go to the blog section.
 - To find software solutions tailored for your business area
